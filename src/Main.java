@@ -11,7 +11,7 @@ public class Main {
         double featureWallLengthInMm = Math.random() * 100;
         double featureWallHeightInMm = Math.random() * 100;
         double featureWallAreaInMmSq = featureWallLengthInMm*featureWallHeightInMm;
-        int costOfFeaturePaintPerCanInPence = 2000;
+        int costOfFeaturePaintPerCanInPence = 3000;
         int NumOfWalls = 4;
         double TotalCost = wallAreaInMmSq * NumOfWalls;
 
